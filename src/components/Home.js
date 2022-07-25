@@ -10,8 +10,10 @@ export default function HOme(){
         })
       }, [])
 
+      let myGames = games.map((game) => (<GameCard gameName={} gameThumbnail={} gameId={}))
+
     return(
-        <div>
+        <div className='container'>
           
         </div>
     )
