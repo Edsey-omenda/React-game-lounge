@@ -1,21 +1,22 @@
 import React, { useEffect, useState } from 'react';
+import GameCard from './GameCard';
 
-export default function HOme(){
+export default function Home(){
     const [games, setGames] = useState([])
 
     useEffect(() => {
-        fetch("https://www.freetogame.com/api/games?category=3d")
+        fetch("https://www.freetogame.com/api/games?category=sandbox")
         .then(response => response.json())
-        .then((data) => {
-            setGames(data.games)
-          console.log(data)
+        .then((games) => {
+            setGames(games)
+          console.log(games)
         })
       }, [])
 
       let myGames = games.map((game) => (<GameCard 
-        gameName={} 
-        gameThumbnail={} 
-        gameId={}))
+        gameTitle={game.title} 
+        gameThumbnail={game.thumbnail} 
+        key={game.id} />))
 
     return(
         <div className='container'>Home
