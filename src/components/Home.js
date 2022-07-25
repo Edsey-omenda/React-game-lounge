@@ -9,7 +9,7 @@ export default function Home(){
         .then(response => response.json())
         .then((games) => {
             setGames(games)
-          console.log(games)
+        //   console.log(games)
         })
       }, [])
 
