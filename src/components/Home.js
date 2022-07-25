@@ -12,7 +12,10 @@ export default function HOme(){
         })
       }, [])
 
-      let myGames = games.map((game) => (<GameCard gameName={} gameThumbnail={} gameId={}))
+      let myGames = games.map((game) => (<GameCard 
+        gameName={} 
+        gameThumbnail={} 
+        gameId={}))
 
     return(
         <div className='container'>Home
