@@ -1,19 +1,19 @@
-import React, { useState } from 'react';
-
-
-const ThreeeDGames = "https://www.freetogame.com/api/games?category=3d";
+import React, { useEffect } from 'react';
 
 export default function HOme(){
-const [games, setGames] = useState([]);
- const myGames = () =>{
-    fetch(ThreeeDGames)
-    .then((resposnse) => Response.json())
- }
 
+    useEffect(() => {
+        fetch("https://www.freetogame.com/api/games?category=3d")
+        .then(response => response.json())
+        .then((data) => {
+          console.log(data)
+        })
+      }, [])
 
     return(
         <div>
-           
+          
         </div>
     )
 }
+

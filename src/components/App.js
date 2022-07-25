@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar';
+import Home from './Home';
 import {BrowserRouter as Router} from 'react-router-dom';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <Router>
        <div className="App">
     <Navbar />
+    <Home />
     </div>
     </Router>
    
