@@ -8,7 +8,7 @@ export default function GameCard({gameThumbnail, gameTitle, gameId}){
             />
             <div className='card-body'>
             <h5 className="card-title">{gameTitle}</h5>
-                <Link to={"/meal/"+gameId} className="btn btn-primary">Game Description</Link>
+                <Link to={"/game/"+gameId} className="btn btn-primary">Game Description</Link>
             </div>
         </div>
     )

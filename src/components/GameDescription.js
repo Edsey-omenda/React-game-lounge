@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-// import { useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 
 export default function GameDescription(){
@@ -11,25 +11,25 @@ export default function GameDescription(){
     const[platform, setPlatform] = useState("")
 
 
-    // let {gameId} = useParams();
-    // const sandUrl = "https://www.freetogame.com/api/games?i="
+    let {gameId} = useParams();
+    const sandUrl = "https://www.freetogame.com/api/games?i="
 
-    // const gameUrl = sandUrl + gameId
+    const gameUrl = sandUrl + gameId
 
     useEffect(() => {
-        fetch("https://www.freetogame.com/api/games?category=sandbox")
+        fetch(gameUrl)
         .then(response => response.json())
-        .then((data) => {
-            const game = data.games[0]
-            setTitle(game.title)
-            setPlatform(game.platform)
-            setGameUrl(game.game_url)
-            setGenre(game.genre)
-            setImage(game.thumbnail)
-            setDescription(game.short_description)
-          
+        .then((games) => {
+            games.map((game) =>  {
+                setTitle(game.title)
+                setPlatform(game.platform)
+                setGameUrl(game.game_url)
+                setGenre(game.genre)
+                setImage(game.thumbnail)
+                setDescription(game.short_description)
+            })
         })
-      }, [])
+      }, [gameUrl])
 
 return(
     <div className='container'>
