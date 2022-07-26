@@ -1,4 +1,5 @@
 import React from 'react';
+import GameIcon from './GameIcon'
 
 export default function Home(){
   
@@ -8,7 +9,7 @@ export default function Home(){
         <center>
         <div className='row' >
           <h2>Welcome to React Game Lounge</h2>
-          <img src="" alt="game-icon"/>
+          <GameIcon />
           </div>
         </center>
         </div>
