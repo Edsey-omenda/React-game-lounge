@@ -5,7 +5,7 @@ export default function Home(){
     const [games, setGames] = useState([])
 
     useEffect(() => {
-        fetch("https://www.freetogame.com/api/games?category=sandbox")
+        fetch("https://www.freetogame.com/api/games?category=shooter")
         .then(response => response.json())
         .then((games) => {
             setGames(games)

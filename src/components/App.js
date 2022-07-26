@@ -12,7 +12,6 @@ function App() {
     </div>
     <Routes>
       <Route  exact path="/" element={<Home />}></Route>
-      <Route  exact path="/games" eleme></Route>
       <Route exact path="/game/:gameId" element={<GameDescription />}></Route>
     </Routes>
     </Router>

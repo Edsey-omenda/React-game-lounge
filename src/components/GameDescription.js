@@ -20,7 +20,7 @@ export default function GameDescription(){
         fetch(gameUrl)
         .then(response => response.json())
         .then((games) => {
-            games.map((game) =>  {
+            const game=games.map((game) =>{
                 setTitle(game.title)
                 setPlatform(game.platform)
                 setGameUrl(game.game_url)
@@ -28,19 +28,22 @@ export default function GameDescription(){
                 setImage(game.thumbnail)
                 setDescription(game.short_description)
             })
+            // games.map((game) =>  {
+             
+            // })
         })
       }, [gameUrl])
 
 return(
     <div className='container'>
         <center>
-        <img src={image} style={{height: 200 + 'px', width: 200 + 'px', }} alt={title}
+        <img src={image} style={{height: 400 + 'px', width: 500 + 'px', }} alt={title}
          />
-            <h5>{title}</h5>
-            <h5>{platform}</h5>
-            <p>{game_url}</p>
-            <h6 className='badge bg-success'>{genre}</h6>
-            <p>{short_description}</p>
+            <h5>Game:{title}</h5>
+            <h5> game platform:{platform}</h5>
+            <p>Game link:{game_url}</p>
+            <h6 className='badge bg-success'>Game genre:{genre}</h6>
+            <p>Game Description:{short_description}</p>
 
         </center>
     </div>
