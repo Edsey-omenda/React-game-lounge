@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import { useParams } from 'react-router-dom';
+import Post from './ReviewForm';
 
 
 export default function GameDescription(){
@@ -46,6 +47,7 @@ return(
             <p>Game Description:{short_description}</p>
 
         </center>
+        <Post />
     </div>
 )
 }
