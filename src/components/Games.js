@@ -19,10 +19,12 @@ export default function Games(){
         key={game.id} />))
 
     return(
+      <div class="text-bg-info p-3">
         <div className='container'>My Games
           <div className='row'>
             {myGames}
           </div>
+        </div>
         </div>
     )
 }

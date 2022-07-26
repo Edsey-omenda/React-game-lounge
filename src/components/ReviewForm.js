@@ -34,7 +34,11 @@ export default function Post(){
         <button type="submit">Post</button>
       </form>
       <h3>Game reviews</h3>
+      <ul>
+      <li>
       {listOfSubmissions}
+      </li>
+      </ul>
             </center>
         </div>
     )
