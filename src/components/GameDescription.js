@@ -43,7 +43,7 @@ return(
             <h5>Game:{title}</h5>
             <h5> game platform:{platform}</h5>
             <p>Game link:{game_url}</p>
-            <h6 className='badge bg-success'>Game genre:{genre}</h6>
+            <h6 className='badge bg-primary'>Game genre:{genre}</h6>
             <p>Game Description:{short_description}</p>
 
         </center>
