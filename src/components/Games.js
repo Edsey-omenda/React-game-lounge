@@ -5,7 +5,7 @@ export default function Games(){
     const [games, setGames] = useState([])
 
     useEffect(() => {
-        fetch("https://www.freetogame.com/api/games?category=shooter")
+        fetch("https://nameless-anchorage-88298.herokuapp.com/games")
         .then(response => response.json())
         .then((games) => {
             setGames(games)

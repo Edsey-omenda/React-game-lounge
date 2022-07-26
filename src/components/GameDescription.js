@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { useParams } from 'react-router-dom';
+// import { useParams } from 'react-router-dom';
 import Post from './ReviewForm';
 
 
@@ -12,13 +12,13 @@ export default function GameDescription(){
     const[platform, setPlatform] = useState("")
 
 
-    let {gameId} = useParams();
-    const sandUrl = "https://www.freetogame.com/api/games?i="
+    // let {gameId} = useParams();
+    // const sandUrl = "https://nameless-anchorage-88298.herokuapp.com/games"
 
-    const gameUrl = sandUrl + gameId
+    // const gameUrl = sandUrl + gameId
 
     useEffect(() => {
-        fetch(gameUrl)
+        fetch("https://nameless-anchorage-88298.herokuapp.com/games")
         .then(response => response.json())
         .then((games) => {
             const game=games.map((game) =>{
@@ -33,7 +33,7 @@ export default function GameDescription(){
              
             // })
         })
-      }, [gameUrl])
+      }, [])
 
 return(
     <div className='container'>
