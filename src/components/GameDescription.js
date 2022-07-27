@@ -21,13 +21,16 @@ export default function GameDescription(){
         fetch("https://nameless-anchorage-88298.herokuapp.com/games")
         .then(response => response.json())
         .then((games) => {
-            // const game=games.map((game) =>{
-            //     setTitle(game.title)
-            //     setPlatform(game.platform)
-            //     setGameUrl(game.game_url)
-            //     setGenre(game.genre)
-            //     setImage(game.thumbnail)
-            //     setDescription(game.short_description)
+            const game=games.map((game) =>{
+                setTitle(game.title)
+                setPlatform(game.platform)
+                setGameUrl(game.game_url)
+                setGenre(game.genre)
+                setImage(game.thumbnail)
+                setDescription(game.short_description)
+            })
+            // games.map((game) =>  {
+             
             // })
             games.map((game) => {
                 return setImage(game.thumbnail), setGameUrl(game.game_url), setPlatform(game.platform), setTitle(game.title), 
@@ -37,9 +40,8 @@ export default function GameDescription(){
       }, [])
 
 return(
-        <div class="text-bg-info p-3">
-        <div className='container'>
-
+    <div class="text-bg-info p-3">
+    <div className='container'>
         <center>
         <div className='card' style={{width : 25 + 'rem'}}>
         <img src={image} style={{height: 300 + 'px', width: 400 + 'px', }} alt={title}
@@ -47,13 +49,12 @@ return(
             <h5>Game:{title}</h5>
             <h5> game platform:{platform}</h5>
             <p>Game link:{game_url}</p>
-            <h6 className='badge bg-info'>Game genre:{genre}</h6>
+            <h6 className='badge bg-primary'>Game genre:{genre}</h6>
             <p>Game Description:{short_description}</p>
         </div>
         </center>
-        <br></br>
         <Post />
-        </div>
+    </div>
     </div>
 )
 }
