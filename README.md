@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Gaming Lounge By James Omenda Screenshot images ![](assets/Screenshot from 2022-06-24 17-24-10.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of contents 
+Description Features 
+[Project set up](set up) 
+[Website access](website access) 
+[Technologies used](technologies used) 
+API 
+[Gaming lounge platform](gaming lounge platform)
+[Authors](J. E .O) License
 
-## Available Scripts
+Description
 
-In the project directory, you can run:
+This is a gaming lounge website that adopts the ApI format system of accessing data, games and all the attributes are fetched from an api link and converted to json so as to be outlayed on the browser. This style of web design makes everything accesible from one page view that is there are no redirections and this makes it easier for interaction with the users.
 
-### `npm start`
+Project set up.
+1.Fork the repository.
+2.Open your terminal.
+3.Git clone with the git clone command.
+4.cd into the directory, code .
+5. Hey! Lets API the Gaming lounge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Website access My Gaming lounge is hosted at Github and Heroku. To access our gaming lounge click this link...["https://ancient-tor-65020.herokuapp.com/"]
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Technologies used The web API was designed using React, Bootsrap and API
 
-### `npm test`
+API The API link for this web is...["https://nameless-anchorage-88298.herokuapp.com/games"]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Landing page 
+This web provides a landing page that also serves as the interactive place for everything about the web interface, simplifies user interaction in that he navabr is simplified into three buttons that navigate to Home, Games and Developer information.
 
-### `npm run build`
+Gaming lounge. 
+This web is a gaming lounge that provides games and more information about games, from this gaming lounge one can tap a game of their choice, get the game description which entails the game name, live link for the game, genre of the game, game image and a short description.One can also post a review or rather their experience with the game.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Author By James Omenda - Full stack developer
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+License This Project is under the MIT license
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
