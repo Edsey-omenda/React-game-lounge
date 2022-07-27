@@ -40,7 +40,7 @@ export default function GameDescription(){
       }, [])
 
 return(
-    <div class="text-bg-info p-3 ">
+    <div className="text-bg-info p-3 ">
     <div className='container'>
         <center>
         <div className='card' style={{width : 25 + 'rem'}}>

@@ -21,7 +21,7 @@ export default function Games(){
     return(
       <div className="text-bg-info p-3">
         <div className='container'>My Games
-          <div className='row'>
+          <div className='row justify-content-start'>
             {myGames}
           </div>
         </div>

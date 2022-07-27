@@ -1,20 +1,19 @@
 import React from 'react';
-import GameIcon from './GameIcon'
 
-export default function Home(){
+
+export default function Developer(){
   
 
     return(
       <div className="text-bg-info p-3">
-        <div className='container'>Home
+        <div className='container'>Developer!
         <center>
         <div className='row' >
           <h2>Welcome to React Game Lounge!</h2>
-          <GameIcon />
+         
           </div>
         </center>
         </div>
         </div>
     )
 }
-
