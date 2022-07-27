@@ -18,7 +18,7 @@ export default function GameDescription(){
     // const gameUrl = sandUrl + gameId
 
     useEffect(() => {
-        fetch("https://nameless-anchorage-88298.herokuapp.com/games")
+        fetch("https://lit-earth-20586.herokuapp.com/games")
         .then(response => response.json())
         .then((games) => {
             const game=games.map((game) =>{
@@ -40,7 +40,7 @@ export default function GameDescription(){
       }, [])
 
 return(
-    <div class="text-bg-info p-3">
+    <div class="text-bg-info p-3 ">
     <div className='container'>
         <center>
         <div className='card' style={{width : 25 + 'rem'}}>

@@ -5,7 +5,7 @@ export default function Games(){
     const [games, setGames] = useState([])
 
     useEffect(() => {
-        fetch("https://nameless-anchorage-88298.herokuapp.com/games")
+        fetch("https://lit-earth-20586.herokuapp.com/games")
         .then(response => response.json())
         .then((games) => {
             setGames(games)
@@ -19,7 +19,7 @@ export default function Games(){
         key={game.id} />))
 
     return(
-      <div class="text-bg-info p-3">
+      <div className="text-bg-info p-3">
         <div className='container'>My Games
           <div className='row'>
             {myGames}
