@@ -10,8 +10,8 @@ export default function GameCard({gameThumbnail, gameTitle, gameId}){
             <img src={gameThumbnail} className="card-img-top" alt={gameTitle}
             />
             <div className='card-body'>
-            <h5 className="card-title">{gameTitle}</h5>
-                <Link to={"/game/"+gameId} className="btn btn-info">Game Description</Link>
+            <h5 className="card-title" >{gameTitle}</h5>
+                <Link to={"/game/"+ gameId} className="btn btn-info">Game Description</Link>
             </div>
         </div>
         </div>

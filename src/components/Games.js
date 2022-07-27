@@ -13,10 +13,12 @@ export default function Games(){
         })
       }, [])
 
+   
+
       let myGames = games.map((game) => (<GameCard 
         gameTitle={game.title} 
         gameThumbnail={game.thumbnail} 
-        key={game.id} />))
+        gameId={game.id} />))
 
     return(
       <div className="text-bg-info p-3">
