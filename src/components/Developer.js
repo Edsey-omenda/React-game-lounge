@@ -21,7 +21,7 @@ export default function Developer(){
       Linkedin:<a href="https://www.linkedin.com/in/james-omenda-b5352418a?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BMjS%2BicXTSM%2B0P8FftAs2kw%3D%3D">James Omenda</a>
       </p>
       </div>
-      <img src={pic} class="rounded-circle" alt="Wuod Nyagoro" style={{width : 25 + 'rem', height : 25 + 'rem'}}/>
+      <img src={pic} className="rounded-circle" alt="Wuod Nyagoro" style={{width : 25 + 'rem', height : 25 + 'rem'}}/>
       </center>
         </div>
     )
