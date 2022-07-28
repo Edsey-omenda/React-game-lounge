@@ -18,12 +18,13 @@ export default function Games(){
       let myGames = games.map((game) => (<GameCard 
         gameTitle={game.title} 
         gameThumbnail={game.thumbnail} 
-        gameId={game.id} />))
+        id={game.id}
+        key={game.id} />))
 
     return(
       <div className="text-bg-info p-3">
         <div className='container'>My Games
-          <div className='row justify-content-start'>
+          <div className='row'>
             {myGames}
           </div>
         </div>

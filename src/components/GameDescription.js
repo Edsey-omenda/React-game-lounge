@@ -17,7 +17,7 @@ export default function GameDescription(){
         .then((games) => {
           
             games.map((game) => {
-                return setId(game.id), setImage(game.thumbnail), setGameUrl(game.game_url), setPlatform(game.platform), setTitle(game.title), 
+                return setId(id), setImage(game.thumbnail), setGameUrl(game.game_url), setPlatform(game.platform), setTitle(game.title), 
                 setGenre(game.genre), setDescription(game.short_description);
             })
         })
