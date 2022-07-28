@@ -1,4 +1,5 @@
-Gaming Lounge By James Omenda Screenshot images ![](assets/Screenshot from 2022-06-24 17-24-10.png)
+Gaming Lounge By James Omenda Screenshot images![Screenshot from 2022-07-28 15-38-12](https://user-images.githubusercontent.com/104456561/181508298-ed07b290-7ce8-4e05-8abf-2e9a16d1ca75.png)
+
 
 Table of contents 
 Description Features 
