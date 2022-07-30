@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+// import { Link } from 'react-router-dom';
 import Post from './ReviewForm';
 
 
@@ -21,19 +22,20 @@ export default function GameDescription(){
                 setGenre(game.genre), setDescription(game.short_description);
             })
         })
-      }, [])
+      }, [id])
 
 return(
     <div className="text-bg-info p-3 " >
     <div className='container'>
         <center>
         <div className='card' style={{width : 25 + 'rem'}} >
-        <img src={image} style={{height: 300 + 'px', width: 400 + 'px', }} alt={title}
+        <img src={image} style={{height: 300 + 'px', width: 300 + 'px', }} alt={title}
          />
             {/* <h1>Id:{id}</h1> */}
             <h5>Game:{title}</h5>
             <h5> game platform:{platform}</h5>
             <p>Game link:{game_url}</p>
+            {/* <Link to={game_url}></Link> */}
             <h6 className='badge bg-primary'>Game genre:{genre}</h6>
             <p>Game Description:{short_description}</p>
         </div>
