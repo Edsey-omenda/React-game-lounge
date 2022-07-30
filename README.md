@@ -1,5 +1,5 @@
 Gaming Lounge By James Omenda Screenshot images![Screenshot from 2022-07-28 15-38-12](https://user-images.githubusercontent.com/104456561/181508298-ed07b290-7ce8-4e05-8abf-2e9a16d1ca75.png)
-![Screenshot from 2022-07-28 15-38-19](https://user-images.githubusercontent.com/104456561/181508751-845e654b-98dc-4580-8a45-c6af6717bbd9.png)
+![Screenshot from 2022-07-31 00-06-31](https://user-images.githubusercontent.com/104456561/181996303-6defd029-5f3b-41c4-b9db-827014560e64.png)
 ![Screenshot from 2022-07-28 15-38-30](https://user-images.githubusercontent.com/104456561/181508981-f5484932-162c-41fe-8c5a-27da62f1c57a.png)
 ![Screenshot from 2022-07-28 15-38-38](https://user-images.githubusercontent.com/104456561/181509106-96548ced-3918-4e46-8376-1407cb6884d4.png)
 
